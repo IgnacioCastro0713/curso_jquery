@@ -1,12 +1,12 @@
 //Curso básico de JQuery con ejemplos de como se haría con javascript puro(Vanilla JS).
-//Nota 1: cada sección esta separada por " /* Un Título */ ", no descomentar el título
+//Nota 1: cada sección esta separada por " /* Un Título */ ", no descomentar el título.
 //Nota 2: para ver como funciona cada sentencia vaya descomentando cada sección de arriba hacia abajo.
 //Nota 3: recargar el documento en cada linéa descomentada o comentada.
 //@Autor: José Ignacio Menchaca Castro.
 
-$(document).ready(function () {
+$(document).ready(function() {
 
-    /*Puedes mirarlo a través de la consola del navegador */
+    /* Puedes mirarlo a través de la consola del navegador */
     console.log('Jquery está funcionando');
 
 
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     
     
-    /*A través de class*/
+    /* A través de class*/
     // $('.text-center').html('Por class con jquery');
     // document.getElementsByClassName('text-center')[0].innerHTML = 'por class con vanilla js';
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     
     
-    /*A través etiqueta */
+    /* A través etiqueta */
     // $('h1').html('Por etiqueta con jquery');
     // document.querySelector('h1').innerHTML = 'por etiqueta por vanilla js';
 
@@ -62,7 +62,7 @@ $(document).ready(function () {
    
    
    
-   /* remover class */
+    /* remover class */
     // $('#idh1').removeClass('p-4');//Nota: p-4 Es un padding al texto sea observador.
     // document.getElementById('idh1').classList.remove('p-4');
 
